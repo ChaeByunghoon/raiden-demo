@@ -1,2 +1,2 @@
-# instapay-demo
-instapay web page for demo
+# Raiden-demo
+Raiden web page for demo
