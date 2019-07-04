@@ -2,7 +2,7 @@ $(".order-amount").ready(function(event){
   var temp = location.href.split("?");
   var data = temp[1].split("=");
   var productValue = data[1];
-  $(".order-amount").text(productValue + "ETH");
+  $(".order-amount").text(productValue + "WTN");
 });
 
 $("#copy_button").on("click", function(event){
@@ -18,7 +18,7 @@ $("#home-button").on("click", function(event){
 });
 
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: "baseurl" + "walletaddress",
+	text: "http://141.223.83.34:3000/payments",
 	width: 300,
 	height: 300,
 	colorDark : "#000000",
